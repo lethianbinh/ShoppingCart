@@ -24,13 +24,13 @@ class CartItem extends Component {
                         onClick={() => this.onUpdateQuantity(item.product, item.quantity - 1)}
                         className="btn btn-sm btn-primary btn-rounded waves-effect waves-light"
                     >
-                        <a href=''>-</a>
+                        <h6>-</h6>
                     </label>
                     <label 
                         onClick={() => this.onUpdateQuantity(item.product, item.quantity + 1)}
                         className="btn btn-sm btn-primary btn-rounded waves-effect waves-light"
                     >
-                        <a href=''>+</a>
+                        <h6>+</h6>
                     </label>
                 </div>
             </td>
