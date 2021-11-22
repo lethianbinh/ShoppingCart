@@ -9,9 +9,7 @@ class Product extends Component {
         <div className="card text-center card-cascade narrower">
           <div className="view overlay hm-white-slight z-depth-1">
             <img src={product.image} className="img-fluid" alt={product.name} />
-            <a>
-              <div className="mask waves-light waves-effect waves-light"></div>
-            </a>
+            
           </div>
           <div className="card-body">
             <h4 className="card-title">
