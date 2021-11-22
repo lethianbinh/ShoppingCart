@@ -18,10 +18,6 @@ const cart = (state = initialState, action) => {
                 });
             }
             localStorage.setItem('CART', JSON.stringify(state));
-            state.push({
-                product,
-                quantity
-            });
             return [...state];
         case types.DELETE_PRODUCT_IN_CART:
             index = findProductInCart(state, product);
