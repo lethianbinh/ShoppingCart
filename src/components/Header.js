@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import { Link } from 'react-router-dom';
 class Header extends Component {
   render() {
     return(
@@ -131,6 +131,10 @@ class Header extends Component {
                 <div className="breadcrumb-dn mr-auto">
                     <ol className="breadcrumb header-breadcrumb">
                         <li className="breadcrumb-item">
+                            <ul>
+                <li><Link to={'/product'} className='headerlist'>Product</Link></li>
+                <li><Link to={'/cart'} className='headerlist'>Cart</Link></li>
+              </ul>
                         </li>
                     </ol>
                 </div>
